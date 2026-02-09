@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const GraphicDesign = () => {
   return (
     <section className="bg-gradient-to-b from-[#2b0a3d] to-[#120016] text-white">
