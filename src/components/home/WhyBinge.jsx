@@ -35,7 +35,7 @@ const WhyBinge = () => {
           <p className="uppercase tracking-widest text-sm text-gray-400">
             WHY BINGE LEARNING
           </p>
-          <h2 className="text-4xl md:text-5xl font-bold">
+          <h2 className="text-4xl md:text-5xl font-bold text-white">
             Excellence in <span className="text-yellow-500">every aspect</span>
           </h2>
         </div>
