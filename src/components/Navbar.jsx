@@ -27,7 +27,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Binge Learning Logo"
-            className="h-10 w-10 object-contain"
+            className="h-20 w-20 object-contain"
           />
           <span className="text-xl font-bold text-yellow-500">Binge</span>
           <span className="text-xl font-bold text-white">Learning</span>
