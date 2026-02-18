@@ -59,7 +59,8 @@ const Footer = () => {
 
             <ul className="space-y-3 text-sm">
               <li>📧 bingelearning@gmail.com</li>
-              <li>📞 +91 9XXXXXXXXX</li>
+              <li>📞 +91 8707493336</li>
+              <li>📞 +91 9958800754</li>
             </ul>
 
 <div className="flex gap-4 mt-6">
@@ -88,6 +89,14 @@ const Footer = () => {
     className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-purple-950"
   >
     📸
+  </a>
+  <a
+    href="https://youtube.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-purple-950"
+  >
+    🎥
   </a>
 </div>
 

@@ -1,12 +1,17 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
+import course1 from "../../assets/courses/course1.jpeg";
+import course2 from"../../assets/courses/course2.jpeg";
+import course3 from "../../assets/courses/course3.jpeg";
+import course4 from "../../assets/courses/course4.jpeg";
+import course5 from"../../assets/courses/course5.jpeg";
 
 const courses = [
-  { title: "Graphics Design", img: "/course1.jpg", path: "/courses/graphics" },
-  { title: "3D Design & Character Modelling", img: "/course2.jpg", path: "/courses/3d" },
-  { title: "CAE Course", img: "/course3.jpg", path: "/courses/cae" },
-  { title: "Physics of Design", img: "/course4.jpg", path: "/courses/physics" },
-  { title: "CAD Course", img: "/course5.jpg", path: "/courses/cad" },
+  { title: "Graphics Design", img: course1, path: "/courses/graphics" },
+  { title: "3D Design & Character Modelling", img: course2, path: "/courses/3d" },
+  { title: "CAE Course", img: course3, path: "/courses/cae" },
+  { title: "Physics of Design", img: course4, path: "/courses/physics" },
+  { title: "CAD Course", img: course5, path: "/courses/cad" },
 ];
 
 const CoursesPreview = () => {
