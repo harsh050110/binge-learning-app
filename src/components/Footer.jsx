@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FaTwitter, FaFacebookF, FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -62,43 +64,53 @@ const Footer = () => {
               <li>📞 +91 8707493336</li>
               <li>📞 +91 9958800754</li>
             </ul>
-
-<div className="flex gap-4 mt-6">
+            <div className="flex gap-4 mt-6">
   <a
     href="https://twitter.com"
     target="_blank"
     rel="noopener noreferrer"
-    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-purple-950"
+    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-[#1DA1F2] transition"
   >
-    🐦
+    <FaTwitter className="text-white text-sm" />
   </a>
 
   <a
     href="https://facebook.com"
     target="_blank"
     rel="noopener noreferrer"
-    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-purple-950"
+    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-[#1877F2] transition"
   >
-    📘
+    <FaFacebookF className="text-white text-sm" />
   </a>
 
   <a
     href="https://instagram.com"
     target="_blank"
     rel="noopener noreferrer"
-    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-purple-950"
+    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-[#E1306C] transition"
   >
-    📸
+    <FaInstagram className="text-white text-sm" />
   </a>
+
   <a
     href="https://youtube.com"
     target="_blank"
     rel="noopener noreferrer"
-    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-purple-950"
+    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-[#FF0000] transition"
   >
-    🎥
+    <FaYoutube className="text-white text-sm" />
+  </a>
+
+  <a
+    href="https://wa.me/+918707493336"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-9 h-9 rounded-full bg-[#3d3d3d] flex items-center justify-center hover:bg-[#25D366] transition"
+  >
+    <FaWhatsapp className="text-white text-sm" />
   </a>
 </div>
+
 
           </div>
 
